@@ -1,5 +1,5 @@
 import './App.scss';
-
+import MyComponent from '../Examples/myComponents';
 function App() {
   return (
     <div className="App">
@@ -7,6 +7,7 @@ function App() {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident libero quibusdam ipsam omnis delectus, laborum saepe autem illum expedita! Animi.
       </p>
+      <MyComponent />
     </div>
   );
 }
